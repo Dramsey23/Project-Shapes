@@ -5,9 +5,30 @@ height: 100vh
 }
 
 .main-wrapper{
-display: flex;
 height: 100vh;
 width: 700px;
-border: 5px solid black;
+border: 2px solid black;
 }
 
+.form-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    border: 1px solid black;
+}
+
+.shape-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    border: 1px solid black;   
+}
+
+.circle{
+    height: 50vh;
+    width: 50vh;
+    border-radius: 50%;
+    border: 1px solid black;
+}
