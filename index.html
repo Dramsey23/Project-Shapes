@@ -12,8 +12,8 @@
 <body>
     <div class="background">
       <div class="main-wrapper">
-          <div class="form-wrapper">
-            <label class="mdc-text-field mdc-text-field--outlined">
+          <div class="form-wrapper" id="form-wrapper">
+            <!-- <label class="mdc-text-field mdc-text-field--outlined">
                 <span class="mdc-notched-outline">
                   <span class="mdc-notched-outline__leading"></span>
                   <span class="mdc-notched-outline__notch">
@@ -21,11 +21,22 @@
                   <span class="mdc-notched-outline__trailing"></span>
                 </span>
                 <input type="text" class="mdc-text-field__input" aria-labelledby="my-label-id">
-              </label>
+              </label> -->
+              <div class="mdc-touch-target-wrapper">
+                <button class="mdc-button " id="circle-button">
+                  <span class="mdc-button__ripple"></span>
+                  <!-- <span class="mdc-button__touch"></span> -->
+                  <span class="mdc-button__label">circle</span>
+                </button>
+                <button class="mdc-button " id="square-button">
+                  <span class="mdc-button__ripple"></span>
+                  <!-- <span class="mdc-button__touch"></span> -->
+                  <span class="mdc-button__label">square</span>
+                </button>
+              </div>
           </div>
           
-          <div class="shape-wrapper">
-            <div class="circle"></div>
+          <div class="shape-wrapper" id="shape-wrapper">
           <div>
       
       </div>   

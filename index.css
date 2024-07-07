@@ -32,3 +32,21 @@ width: 700px;
     border-radius: 50%;
     border: 1px solid black;
 }
+.square{
+    height: 50vh;
+    width: 50vh;
+    border:1px solid black;
+}
+
+.circle2{
+    height: 25vh;
+    width: 25vh;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.square2{
+    height: 25vh;
+    width: 25vh;
+    border:1px solid black;
+}
